@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "35nB302TkICa6BykHbbRdiuneJLgxC+aNURZkJEFKtI=",
+  "Source": "SignatureAPP",
+  "BasePath": "_content/SignatureAPP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SignatureAPP\\wwwroot",
+      "Source": "SignatureAPP",
+      "ContentRoot": "C:\\Users\\Ramez Hadhri\\Desktop\\CS_Challenge\\Back\\SignatureAPP\\SignatureAPP\\wwwroot\\",
+      "BasePath": "_content/SignatureAPP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

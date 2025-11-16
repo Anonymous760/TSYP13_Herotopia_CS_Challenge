@@ -1,0 +1,387 @@
+2025-11-13 11:40:17.684 +01:00 [ERR] [AuthenController/Login02] User not found in DB
+2025-11-13 11:40:31.465 +01:00 [ERR] [AuthenController/Login02] User not found in DB
+2025-11-13 11:40:44.309 +01:00 [INF] [AuthenController/CreateUser03]   user created and  Verification email sent.
+2025-11-13 11:42:14.201 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 11:48:57.941 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 11:49:12.097 +01:00 [INF] [AuthenController/ConfirmEmail03] Email confirmed successfully 
+2025-11-13 11:49:48.910 +01:00 [INF] [AuthenController/Registre08] User fully registered
+2025-11-13 11:49:56.165 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 11:49:56.812 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 11:49:57.236 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-13 11:49:57.359 +01:00 [ERR]  [TransactionService/GetTransactions01]   no   transaction found for user id:fdb4ff16-cf9b-48bf-903f-2276b64bc418 
+2025-11-13 11:49:57.365 +01:00 [INF] [TransactionController/getTransactions03] Retrieved transactions successfully 
+2025-11-13 11:50:11.662 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 11:50:42.467 +01:00 [INF] [UserController/updateuser04] User  updated successfully.
+2025-11-13 11:50:47.135 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 11:50:48.627 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 11:50:57.542 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 11:54:36.183 +01:00 [INF] [SignatureController/GetSignatures02] No signatures found 
+2025-11-13 11:57:06.508 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 11:57:06.684 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 11:57:06.774 +01:00 [ERR]  [TransactionService/GetTransactions01]   no   transaction found for user id:fdb4ff16-cf9b-48bf-903f-2276b64bc418 
+2025-11-13 11:57:06.781 +01:00 [INF] [TransactionController/getTransactions03] Retrieved transactions successfully 
+2025-11-13 12:04:11.805 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 12:04:11.970 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 12:04:12.061 +01:00 [ERR]  [TransactionService/GetTransactions01]   no   transaction found for user id:fdb4ff16-cf9b-48bf-903f-2276b64bc418 
+2025-11-13 12:04:12.067 +01:00 [INF] [TransactionController/getTransactions03] Retrieved transactions successfully 
+2025-11-13 12:04:24.097 +01:00 [INF]  [TransactionService/AddDocument01]doc return format added id:49da3a77e9e74502a49e9493596d26f3    
+2025-11-13 12:04:24.106 +01:00 [INF]  [TransactionService/AddDocument02]document  added id:49da3a77e9e74502a49e9493596d26f3   , name :Enoncé-série_FR.pdf  
+2025-11-13 12:04:28.941 +01:00 [ERR] [TransactionController/AddTransaction] pdf is not PDF/A
+2025-11-13 12:04:41.836 +01:00 [INF]  [TransactionService/AddDocument01]doc return format added id:c7ea0da8f44e4c50a38dfb6128357e06    
+2025-11-13 12:04:41.846 +01:00 [INF]  [TransactionService/AddDocument02]document  added id:c7ea0da8f44e4c50a38dfb6128357e06   , name :Enoncé TP1_SEL.pdf  
+2025-11-13 12:04:42.074 +01:00 [ERR] [TransactionController/AddTransaction] pdf is not PDF/A
+2025-11-13 12:06:02.895 +01:00 [INF]  [TransactionService/AddDocument01]doc return format added id:ed3fc20667574af3a8f498ec3a1b0f01    
+2025-11-13 12:06:02.901 +01:00 [INF]  [TransactionService/AddDocument02]document  added id:ed3fc20667574af3a8f498ec3a1b0f01   , name :JSIGN -test - 04.pdf  
+2025-11-13 12:06:09.264 +01:00 [INF] PDF successfully converted to PDF/A.
+2025-11-13 12:06:09.270 +01:00 [INF] ConvertToPDFAAsync:True
+2025-11-13 12:06:09.276 +01:00 [INF] [TransactionController/AddTransaction] pdf is  PDF/A
+2025-11-13 12:06:09.821 +01:00 [INF]  [TransactionService/AddTransaction01]  transaction created with id :e524b9daf34345ca90de92795d88718e 
+2025-11-13 12:06:09.826 +01:00 [INF] [TransactionController/AddTransaction06] Transaction created successfully
+2025-11-13 12:06:11.690 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 12:06:11.725 +01:00 [INF]  [TransactionService/GetTransactionById01]  transaction founded successfully  
+2025-11-13 12:06:12.266 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 12:06:12.272 +01:00 [INF] [TransactionController/getPdfs04] PDF info retrieved successfully
+2025-11-13 12:06:41.291 +01:00 [INF]  [TransactionService/GetTransactionById01]  transaction founded successfully  
+2025-11-13 12:06:41.433 +01:00 [INF]  [TransactionService/LunchTransaction03]  creator is the signataire 
+2025-11-13 12:06:41.617 +01:00 [INF]  [TransactionService/LunchTransaction04]    signataire addedto transaction  
+2025-11-13 12:06:41.971 +01:00 [INF]  [TransactionService/LunchTransaction05]  invitation email sent  for the first signer 
+2025-11-13 12:06:41.978 +01:00 [INF] [TransactionController/lunchTransaction05] Transaction launched successfully
+2025-11-13 12:06:42.097 +01:00 [INF]  [TransactionService/GetTransactionById01]  transaction founded successfully  
+2025-11-13 12:06:42.145 +01:00 [INF]  [TransactionService/GetSigner01]  signer   found in transaction
+2025-11-13 12:06:42.159 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 12:06:42.167 +01:00 [INF] [TransactionController/GetDocsToSign05] Docs retrieved successfully
+2025-11-13 12:06:45.520 +01:00 [INF] [SignatureController/GetSignatures02] No signatures found 
+2025-11-13 12:06:51.567 +01:00 [INF] [SignatureController/AddSignature03] Signature added successfully
+2025-11-13 12:06:51.621 +01:00 [INF] [SignatureController/GetSignatures04] Signatures retrieved successfully
+2025-11-13 12:06:55.136 +01:00 [INF] [OTPService/generateOTP03] OTP generated and sent to email: hadhriramez0@gmail.com.
+2025-11-13 12:06:55.158 +01:00 [INF] [OtpController/AddOTP03] OTP generated successfully. 
+2025-11-13 12:07:12.402 +01:00 [INF] [OTPService/getOtp03] OTP validated successfully
+2025-11-13 12:07:12.408 +01:00 [INF] [OtpController/verifyOTP04] OTP verified successfully
+2025-11-13 12:07:12.513 +01:00 [INF]  [TransactionService/GetTransactionById01]  transaction founded successfully  
+2025-11-13 12:07:12.778 +01:00 [INF] Starting signing process for PDF: ed3fc20667574af3a8f498ec3a1b0f01.pdf on page 1
+2025-11-13 12:07:12.812 +01:00 [INF] Loading certificate from: C:\Users\Ramez Hadhri\Desktop\Signature_Project11\Back\SignatureAPP\SignatureAPP\stockage\Certificat\NeoSignSignatureCertificate.pfx
+2025-11-13 12:07:13.358 +01:00 [INF] Reading input PDF from: C:\Users\Ramez Hadhri\Desktop\Signature_Project11\Back\SignatureAPP\SignatureAPP\stockage\pdfs\ed3fc20667574af3a8f498ec3a1b0f01.pdf
+2025-11-13 12:07:13.368 +01:00 [INF] Creating PdfSigner...
+2025-11-13 12:07:22.104 +01:00 [INF] Looking for signature image at: C:\Users\Ramez Hadhri\Desktop\Signature_Project11\Back\SignatureAPP\SignatureAPP\stockage\images\1cbf2ce27abf4f95bd88a5b7d559c04b.png
+2025-11-13 12:07:22.112 +01:00 [INF] Signature image found. Embedding into PDF.
+2025-11-13 12:07:22.528 +01:00 [INF] Applying digital signature...
+2025-11-13 12:07:24.294 +01:00 [INF] Deleted original PDF at: C:\Users\Ramez Hadhri\Desktop\Signature_Project11\Back\SignatureAPP\SignatureAPP\stockage\pdfs\ed3fc20667574af3a8f498ec3a1b0f01.pdf
+2025-11-13 12:07:24.312 +01:00 [INF] Moved signed PDF to: C:\Users\Ramez Hadhri\Desktop\Signature_Project11\Back\SignatureAPP\SignatureAPP\stockage\pdfs\ed3fc20667574af3a8f498ec3a1b0f01.pdf
+2025-11-13 12:07:24.322 +01:00 [INF] PDF signed successfully (multiple signatures supported)
+2025-11-13 12:07:24.336 +01:00 [INF] [TransactionController/Signtransaction08] Document add signature succesfully
+2025-11-13 12:07:24.357 +01:00 [INF] [TransactionService/SignTransaction01] No next signer to notify (end of list).
+2025-11-13 12:07:24.544 +01:00 [INF]  [TransactionService/SignTransaction02]  thred of email of signed pdf sent 
+2025-11-13 12:07:24.581 +01:00 [INF] [TransactionController/Signtransaction11] Transaction signed successfully
+2025-11-13 12:07:35.881 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 12:07:35.899 +01:00 [INF]  [TransactionService/GetTransactions02]  transactions retrieved successfully for user
+2025-11-13 12:07:35.905 +01:00 [INF] [TransactionController/getTransactions03] Retrieved transactions successfully 
+2025-11-13 12:20:38.236 +01:00 [INF] [SignatureController/GetSignatures04] Signatures retrieved successfully
+2025-11-13 12:20:59.022 +01:00 [INF] [SignatureController/AddSignature03] Signature added successfully
+2025-11-13 12:20:59.035 +01:00 [INF] [SignatureController/GetSignatures04] Signatures retrieved successfully
+2025-11-13 12:21:00.919 +01:00 [INF] [GetDigigoAccount] GET ACCOUNT .........     
+2025-11-13 12:21:00.970 +01:00 [INF] [GetDigigoAccount] get acount of digigo     
+2025-11-13 12:21:22.232 +01:00 [ERR] [GetDigigoAccount] Unexpected Error   Occured :Object reference not set to an instance of an object. 
+2025-11-13 12:21:29.252 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 12:21:39.684 +01:00 [INF]  [TransactionService/GetTransactions02]  transactions retrieved successfully for user
+2025-11-13 12:21:39.685 +01:00 [INF] [TransactionController/getTransactions03] Retrieved transactions successfully 
+2025-11-13 15:30:45.294 +01:00 [ERR] An error occurred using the connection to database 'CsChallenge' on server 'DESKTOP-B05IFKN\SQLEXPRESS01'.
+2025-11-13 15:30:45.372 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SignatureAPP.Data.DbContextClass'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Impossible d'ouvrir la base de données "CsChallenge" demandée par la connexion. La connexion a échoué.
+Échec de l'ouverture de session de l'utilisateur 'DESKTOP-B05IFKN\Ramez Hadhri'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:42c0bc08-b8b7-42c8-8044-9631fc9d0ce6
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Impossible d'ouvrir la base de données "CsChallenge" demandée par la connexion. La connexion a échoué.
+Échec de l'ouverture de session de l'utilisateur 'DESKTOP-B05IFKN\Ramez Hadhri'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:42c0bc08-b8b7-42c8-8044-9631fc9d0ce6
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-11-13 15:30:45.480 +01:00 [ERR] An error occurred while initializing roles.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Impossible d'ouvrir la base de données "CsChallenge" demandée par la connexion. La connexion a échoué.
+Échec de l'ouverture de session de l'utilisateur 'DESKTOP-B05IFKN\Ramez Hadhri'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:42c0bc08-b8b7-42c8-8044-9631fc9d0ce6
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(String roleName)
+   at SignatureAPP.Roles.Roles.InitializeRoles() in C:\Users\Ramez Hadhri\Desktop\CS_Challenge\Back\SignatureAPP\SignatureAPP\Roles\Roles.cs:line 21
+   at Program.<Main>$(String[] args) in C:\Users\Ramez Hadhri\Desktop\CS_Challenge\Back\SignatureAPP\SignatureAPP\Program.cs:line 125
+2025-11-13 15:34:04.243 +01:00 [INF] [AuthenController/CreateUser03]   user created and  Verification email sent.
+2025-11-13 15:34:27.611 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 15:35:12.874 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 15:35:23.586 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 15:35:26.077 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 15:35:42.661 +01:00 [INF] [AuthenController/CreateUser03]   user created and  Verification email sent.
+2025-11-13 15:36:12.204 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 15:36:14.295 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 15:36:43.565 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 15:37:43.676 +01:00 [INF] [AuthenController/CreateUser05] Email confirmation resent to existing user
+2025-11-13 15:37:58.937 +01:00 [INF] [AuthenController/ConfirmEmail03] Email confirmed successfully 
+2025-11-13 15:38:15.833 +01:00 [INF] [AuthenController/ConfirmEmail03] Email confirmed successfully 
+2025-11-13 15:38:35.356 +01:00 [INF] [AuthenController/Registre08] User fully registered
+2025-11-13 15:38:51.586 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 15:38:51.702 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 15:38:56.097 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 15:39:30.802 +01:00 [INF] [UserController/PasswordChange06] Password changed successfully 
+2025-11-13 16:21:20.047 +01:00 [ERR] An error occurred using the connection to database 'CsChallenge' on server 'DESKTOP-B05IFKN\SQLEXPRESS01'.
+2025-11-13 16:21:20.117 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SignatureAPP.Data.DbContextClass'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Impossible d'ouvrir la base de données "CsChallenge" demandée par la connexion. La connexion a échoué.
+Échec de l'ouverture de session de l'utilisateur 'DESKTOP-B05IFKN\Ramez Hadhri'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:f7c704a3-4aa6-4546-a9e4-566502a1bebb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Impossible d'ouvrir la base de données "CsChallenge" demandée par la connexion. La connexion a échoué.
+Échec de l'ouverture de session de l'utilisateur 'DESKTOP-B05IFKN\Ramez Hadhri'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:f7c704a3-4aa6-4546-a9e4-566502a1bebb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-11-13 16:21:20.206 +01:00 [ERR] An error occurred while initializing roles.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Impossible d'ouvrir la base de données "CsChallenge" demandée par la connexion. La connexion a échoué.
+Échec de l'ouverture de session de l'utilisateur 'DESKTOP-B05IFKN\Ramez Hadhri'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:f7c704a3-4aa6-4546-a9e4-566502a1bebb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(String roleName)
+   at SignatureAPP.Roles.Roles.InitializeRoles() in C:\Users\Ramez Hadhri\Desktop\CS_Challenge\Back\SignatureAPP\SignatureAPP\Roles\Roles.cs:line 21
+   at Program.<Main>$(String[] args) in C:\Users\Ramez Hadhri\Desktop\CS_Challenge\Back\SignatureAPP\SignatureAPP\Program.cs:line 125
+2025-11-13 16:22:38.798 +01:00 [INF] [AuthenController/CreateUser03]   user created and  Verification email sent.
+2025-11-13 16:22:46.504 +01:00 [INF] [AuthenController/ConfirmEmail03] Email confirmed successfully 
+2025-11-13 16:23:15.655 +01:00 [INF] [AuthenController/Registre08] User fully registered
+2025-11-13 16:23:24.452 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 16:23:24.564 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 16:24:59.518 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 16:27:28.966 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 16:29:12.994 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'SignatureAPP.Services.ITransactionService' while attempting to activate 'SignatureAPP.Controllers.TransactionController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method341(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-13 16:30:37.698 +01:00 [INF] [TransactionService/AddDocument01] Document ajouté au retour avec ID : 5a387e893f7d47e0a2e9407b44c77d77
+2025-11-13 16:30:37.998 +01:00 [INF] [TransactionService/AddDocument02] Tous les documents ont été ajoutés avec succès.
+2025-11-13 16:30:38.002 +01:00 [INF] [TransactionController/AddTransaction06] Documents  created successfully
+2025-11-13 16:31:51.915 +01:00 [INF] [TransactionService/AddDocument01] Document ajouté au retour avec ID : a468bc8bcd254667b82d2f64abe7173c
+2025-11-13 16:31:52.209 +01:00 [INF] [TransactionService/AddDocument02] Tous les documents ont été ajoutés avec succès.
+2025-11-13 16:31:52.212 +01:00 [INF] [TransactionController/AddTransaction06] Documents  created successfully
+2025-11-13 16:36:19.636 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 16:36:19.694 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 16:38:57.984 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 16:43:16.178 +01:00 [INF] [TransactionService/AddDocument01] Document ajouté au retour avec ID : 5642d47cd7394d0ca0c4cd9b5872466f
+2025-11-13 16:43:16.184 +01:00 [INF] [TransactionService/AddDocument02] Tous les documents ont été ajoutés avec succès.
+2025-11-13 16:43:16.185 +01:00 [INF] [TransactionController/AddTransaction06] Documents  created successfully
+2025-11-13 20:09:54.494 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 20:45:22.507 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 20:45:22.702 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 20:45:46.279 +01:00 [INF] [TransactionService/AddDocument01] Document ajouté au retour avec ID : 174ec4fb54704534933eeee1bb03c055
+2025-11-13 20:45:46.385 +01:00 [INF] [TransactionService/AddDocument02] Tous les documents ont été ajoutés avec succès.
+2025-11-13 20:45:46.388 +01:00 [INF] [TransactionController/AddTransaction06] Documents  created successfully
+2025-11-13 20:46:21.168 +01:00 [INF] [AuthenController/CreateUser03]   user created and  Verification email sent.
+2025-11-13 20:46:36.716 +01:00 [INF] [AuthenController/ConfirmEmail03] Email confirmed successfully 
+2025-11-13 20:46:54.773 +01:00 [INF] [AuthenController/Registre08] User fully registered
+2025-11-13 20:46:59.953 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 20:46:59.983 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 22:23:13.606 +01:00 [INF] [TransactionService/AddDocument01] Document ajouté au retour avec ID : 2761243c19f84f43b6001c1f6b7d0775
+2025-11-13 22:23:13.691 +01:00 [INF] [TransactionService/AddDocument02] Tous les documents ont été ajoutés avec succès.
+2025-11-13 22:23:13.699 +01:00 [INF] [TransactionController/AddTransaction06] Documents  created successfully
+2025-11-13 22:44:28.123 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 22:46:05.276 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 22:55:06.597 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 22:55:06.789 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 22:55:12.250 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 22:55:49.775 +01:00 [INF] [TransactionService/AddDocument01] Document ajouté au retour avec ID : 34e6d08b44dc4de897f16e6f7bd2e6d9
+2025-11-13 22:55:50.426 +01:00 [INF] [TransactionService/AddDocument02] Tous les documents ont été ajoutés avec succès.
+2025-11-13 22:55:50.433 +01:00 [INF] [TransactionController/AddTransaction06] Documents  created successfully
+2025-11-13 22:55:51.992 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 22:58:55.061 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 22:58:55.263 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 22:59:11.075 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 22:59:11.186 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 22:59:11.253 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 22:59:28.841 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 22:59:28.943 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 22:59:28.959 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 23:03:07.057 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 23:03:07.139 +01:00 [ERR] [TransactionController/GetDocs] Doc not found
+2025-11-13 23:03:18.118 +01:00 [ERR] [TransactionController/GetDocs] Doc not found
+2025-11-13 23:03:18.973 +01:00 [ERR] [TransactionController/GetDocs] Doc not found
+2025-11-13 23:03:40.225 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 23:03:40.253 +01:00 [ERR] [TransactionController/GetDocs] Doc not found
+2025-11-13 23:03:52.583 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 23:03:52.601 +01:00 [ERR] [TransactionController/GetDocs] Doc not found
+2025-11-13 23:04:10.015 +01:00 [INF] [AuthenController/Login05] Successful login 
+2025-11-13 23:04:10.093 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 23:04:10.122 +01:00 [ERR] [TransactionController/GetDocs] Doc not found
+2025-11-13 23:04:30.341 +01:00 [INF] [TransactionService/AddDocument01] Document ajouté au retour avec ID : f4d21cfc7d044a51ba5c6d96ab385605
+2025-11-13 23:04:30.361 +01:00 [INF] [TransactionService/AddDocument02] Tous les documents ont été ajoutés avec succès.
+2025-11-13 23:04:30.367 +01:00 [INF] [TransactionController/AddTransaction06] Documents  created successfully
+2025-11-13 23:04:30.660 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 23:04:50.867 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 23:04:50.921 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 23:05:00.357 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 23:05:00.415 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
+2025-11-13 23:05:10.553 +01:00 [INF] [UserController/GetUserByEmail03]  retrieved user Successfully
+2025-11-13 23:05:24.965 +01:00 [INF] [UserController/updateuser04] User  updated successfully.
+2025-11-13 23:05:28.377 +01:00 [INF]  [TransactionService/GetPdfInfo01] retrieved pdfinfo    
