@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Roadmap Generator - AI-Powered Skill Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-rocket"></i>
+                    <h1>Career Insights Report - personalized Roadmap Generator :</h1>
+                </div>
+                <p class="tagline">Transform Your Career with AI-Powered Skill Analysis</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="two-column-layout">
+                <!-- LEFT COLUMN: Market Insights (Always Visible) -->
+                <aside class="left-panel">
+                    <section class="card market-insights-section">
+                        <div class="card-header">
+                            <i class="fas fa-chart-line"></i>
+                            <h2>Market Insights (MENA and South Saharan Market)</h2>
+                        </div>
+                        <div class="card-body">
+                            <div id="marketInsights">
+                                <!-- Top 10 Skills -->
+                                <div class="insights-block">
+                                    <h3 class="insights-title">
+                                        <i class="fas fa-trophy"></i> Top 10 Demanded Skills fo Data Scientist jobs
+                                    </h3>
+                                    <div id="top10SkillsList" class="top-skills-list"></div>
+                                </div>
+                                
+                                <!-- Visualization -->
+                                <div class="insights-block">
+                                    <h3 class="insights-title">
+                                        <i class="fas fa-project-diagram"></i> Skill Clusters Visualization
+                                    </h3>
+                                    <div class="visualization-container" id="vizContainer">
+                                        <img src="{{ url_for('static', filename='skill_clusters_visualization.png') }}" 
+                                             alt="Skill Clusters" 
+                                             class="cluster-image"
+                                             id="clusterImg"
+                                             onerror="this.style.display='none'; this.parentElement.innerHTML='<p style=\'text-align:center; color:var(--text-secondary); padding:20px;\'>Visualization not available</p>'">
+                                    </div>
+                                    <div class="image-modal" id="imageModal">
+                                        <img src="{{ url_for('static', filename='skill_clusters_visualization.png') }}" 
+                                             alt="Skill Clusters" 
+                                             class="modal-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </aside>
+
+                <!-- RIGHT COLUMN: CV Upload & Analysis -->
+                <div class="right-panel">
+                    <!-- Step 1: Upload Section -->
+                    <section class="card upload-section" id="uploadSection">
+                        <div class="card-header">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <h2>Upload Your CV</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="upload-area" id="uploadArea">
+                                <div class="upload-icon">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <h3>Drag & Drop Your CV Here</h3>
+                                <p>or click to browse</p>
+                                <input type="file" id="cvFile" accept=".pdf,.txt" hidden>
+                                <button class="btn btn-primary" onclick="document.getElementById('cvFile').click()">
+                                    <i class="fas fa-folder-open"></i> Choose File
+                                </button>
+                            </div>
+                            <div class="file-info" id="fileInfo" style="display: none;">
+                                <i class="fas fa-check-circle"></i>
+                                <span id="fileName"></span>
+                            </div>
+                            <div class="progress-container" id="progressContainer" style="display: none;">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="progressFill"></div>
+                                </div>
+                                <p class="progress-text" id="progressText">Processing your CV...</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Step 2: Skills Display -->
+                    <section class="card skills-section" id="skillsSection" style="display: none;">
+                        <div class="card-header">
+                            <i class="fas fa-brain"></i>
+                            <h2>Your Extracted Skills</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="skills-container" id="skillsContainer"></div>
+                            <button class="btn btn-success btn-large" id="analyzeBtn">
+                                <i class="fas fa-chart-line"></i> Analyze Skills & Generate Career Insights
+                            </button>
+                        </div>
+                    </section>
+
+                    <!-- Step 3: Career Insights -->
+                    <section class="card insights-section" id="insightsSection" style="display: none;">
+                        <div class="card-header">
+                            <i class="fas fa-lightbulb"></i>
+                            <h2>Career Gap Analysis</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="stats-grid" id="statsGrid"></div>
+                        </div>
+                    </section>
+
+                    <!-- Step 4: Roadmap -->
+                    <section class="card roadmap-section" id="roadmapSection" style="display: none;">
+                        <div class="card-header">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h2>Career Insights Report</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="roadmap-content" id="roadmapContent"></div>
+                            <div class="action-buttons" style="margin-top: 30px;">
+                                <button class="btn btn-download" id="downloadBtn">
+                                    <i class="fas fa-file-pdf"></i> Download Roadmap as PDF
+                                </button>
+                                <button class="btn btn-secondary" onclick="location.reload()">
+                                    <i class="fas fa-redo"></i> Start Over
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Loading Overlay -->
+            <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analyzing your skills with AI...</p>
+            </div>
+        </main>
+
+ 
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
