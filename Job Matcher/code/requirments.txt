@@ -1,0 +1,11 @@
+openai
+pandas
+torch
+sentence-transformers
+tenacity
+tqdm
+curl-cffi
+beautifulsoup4
+pypdf
+flask
+numpy
